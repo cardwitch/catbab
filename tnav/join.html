@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title> JOIN - CATBAB </title>
+		<link rel="stylesheet" href="../css/join.css" />
+	</head>
+	<body>
+		<div class="join">
+			<div class="top"></div>
+			<div class="bottom">
+				<p class="first">회원가입을 하시면 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;만의 다양한 혜택을 즐기실 수 있습니다.</p>
+				<div class="termsBox">
+				<h2>약관 확인</h2>
+					<h3>홈페이지 이용약관</h3>
+						<div class="termsBox01">
+							<p>※CATBAB에서는 일부 서비스를 제외하고, 회원가입 없이 대부분의 정보이용이 불가능합니다.</p>
+							<h4> 제 1장 총칙</h4>
+						</div>
+					<form>
+						<input type="checkbox" value="동의합니다">동의합니다.
+						<label for="checkbox" class="away">동의합니다</label>
+					</form>
+					<h3>개인정보 수집 및 이용 등에 대한 동의</h3>
+						<div class="termsBox02">
+							<p>개인정보 보호법 제 15조 및 정보통신망 이용촉진법 및 정보보호 등에 관한 법률 제 22조에 따라 본인의 동의를 얻어야 합니다. 이에 본인은 아래의 내용과 같이 본인의 개인정보를 수집하고 이용하는 것에 동의합니다. 아래의 동의는 거부하실 수 있으며 동의하지 않으시는 경우에 회원 가입을 할 수 없습니다.</p>
+						</div>
+					<form>
+						<input type="checkbox" value="동의합니다">동의합니다.
+						<label for="checkbox" class="away">동의합니다</label>
+					</form>
+					<h3>개인정보 취급위탁에 대한 안내</h3>
+						<div class="termsBox03">
+							<h4> 개인정보 취급 위탁</h4>
+							<p>회사는 원활한 업무처리를 위하여 아래와 같이 업무를 외부 전문업체에 취급 위탁하여 운영하고 있으며 관련 법령에 따라 위탁 계약시 개인정보</p>
+						</div>
+					<form>
+						<input type="checkbox" value="동의합니다">동의합니다.
+						<label for="checkbox" class="away">동의합니다</label>
+					</form>
+					<h3>마케팅 및 광고의 수집 및 이용 동의</h3>
+						<div class="termsBox04">
+							<h4>마케팅 및 광고의 수집 및 이용 동의</h4>
+							<p>당사는 고객님에게 다양한 서비스 (경품제공, 이벤트 당첨, 상품홍보 등) 제공을 위하여, 목적달성 또는 철회시까지 1. 개인정보 수집 및 이용 동</p>
+						</div>
+					<form>
+						<input type="checkbox" value="동의합니다">동의합니다.
+						<label for="checkbox" class="away">동의합니다</label>
+					</form>
+					<form class="last">
+						<input type="checkbox" value="이용약관, 개인정보 수집 및 이용에 모두 동의합니다"> 이용약관, 개인정보 수집 및 이용에 모두  <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;동의합니다.
+						<label for="checkbox" class="away">이용약관, 개인정보 수집 및 이용에 모두 동의합니다.</label>
+					</form>
+				</div>
+				<div class="joinBox">
+					<div class="joinName">
+						<h2>기본 정보 입력</h2>
+						<h3>회원 정보</h3>
+					</div>
+					<form action="#">
+						<fieldset>
+							<legend>기본 정보 입력 폼 구역</legend>
+							<table>							
+								<tr>
+									<th>
+										<label for="cbName"><span>*</span> 이름</label>
+									</th>
+									<td>
+										<input type="text" id="cbName" class="box1" placeholder=" * 이름"/>
+									</td>
+								</tr>
+								<tr>
+									<th>
+										<label for="cbPw"><span>*</span> 비밀번호</label>
+									</th>
+									<td>
+										<input type="password" maxlength="16" id="cbPw" class="box1" placeholder=" * 비밀번호"/>
+										<p>* 8~12자리의 영문 숫자를 조합하여 사용할 수 있습니다.<br/>
+										&nbsp;&nbsp;(2종류 필수 조합)</p>
+									</td>
+								</tr>
+								<tr>
+									<th>
+										<label for="cbPwChk"><span>*</span> 비밀번호 확인</label>
+									</th>
+									<td>
+										<input type="password" id="cbPwChk" class="box1" placeholder=" *비밀번호 확인" />
+									</td>
+								</tr>
+								<tr>
+									<th>
+										<label for="cbEmail1"><span>*</span> 이메일</label>
+									</th>
+									<td>
+										<input type="text" id="cbEmail1" class="box1" />@
+										<input type="text" id="cbEmail2" class="box2" />
+										<input type="button" value="이메일 중복확인" id="chkBtn1" class="btn1" />
+										<label for="chkBtn1" class="away">이메일 중복검사 버튼</label>
+										<input type="button" value="이메일 유효성 체크" id="chkBtn2" class="btn2" />
+										<label for="chkBtn2" class="away">이메일 유효성 체크 버튼</label>
+									</td>
+								</tr>
+								<tr>
+									<th><span>*</span> 이메일 수신</th>
+									<td>
+										<input type="radio" id="cbMailed" name="recieved"/>
+										<label for="cbMailed">수신</label>
+										<input type="radio" id="cbNoMailed" name="recieved" checked="checked"/>
+										<label for="cbNoMailed">수신 거부</label>
+									</td>
+								</tr>
+								<tr>
+									<th>
+										<label for="cbNc"><span>*</span> 닉네임</label>
+									</th>
+									<td>
+										<input type="text" maxlength="6" id="cbNc" class="box1" />
+										<input type="button" value="중복확인" id="chkBtn3" class="btn3" />
+										<label for="chkBtn3" class="away">중복확인 버튼</label>
+										<p>*닉네임은 6자로 제한됩니다.</p>
+									</td>
+								</tr>
+								<tr>
+									<th>
+										<label for="cbMail1"><span>*</span> 주소</label>
+									</th>
+									<td>
+										<input type="text" maxlength="3" id="cbMail1" class="box3" /> -
+										<label for="cbMail2" class="away">우편번호 2번째 박스</label>
+										<input type="text" maxlength="3" id="cbMail2" class="box3" />
+										<label for="cbMailBtn" class="away">우편번호 검색 버튼</label>
+										<input type="button" value="우편번호 검색" class="btn4" id="cbMailBtn" />
+										<label for="cbAddr1" class="away">자동 주소입력 박스</label>
+										<input type="text" id="cbAddr1" class="box4" />
+										<label for="cbAddr1" class="away">주소 입력 박스1</label>
+										<input type="text" id="cbAddr2" class="box4" />
+										<label for="cbAddr2" class="away">주소 입력 박스2</label>
+									</td>
+								</tr>
+								<tr>
+									<th><label for="cbTel1"> &nbsp;&nbsp;&nbsp;연락처</label></th>
+									<td>
+										<select id="cbTel1" class="box5">
+											<option> 선택 </option>
+											<option>02</option>
+											<option>031</option>
+											<option>032</option>
+											<option>033</option>
+											<option>041</option>
+											<option>042</option>
+											<option>043</option>
+										</select> -
+										<label for="cbTel2" class="away">전화번호 2번째박스</label>
+										<input type="text" maxlength="4" id="cbTel2" class="box6" /> -
+										<label for="cbTel3" class="away">전화번호 3번째박스</label>
+										<input type="text" maxlength="4" id="cbTel3" class="box6" />
+									</td>
+								</tr>
+								<tr>
+									<th><label for="cbPhone1"><span>*</span>  휴대전화</label></th>
+									<td>
+										<select id="cbPhone1" class="box5">
+											<option> 선택 </option>
+											<option>010</option>
+											<option>011</option>
+											<option>016</option>
+											<option>017</option>
+											<option>018</option>
+											<option>019</option>
+										</select> -
+										<label for="cbPhone2" class="away">핸드폰 2번째박스</label>
+										<input type="text" maxlength="4" id="cbPhone2" class="box6" /> -
+										<label for="cbPhone3" class="away">핸드폰 3번째박스</label>
+										<input type="text" maxlength="4" id="cbPhone3" class="box6" />
+									</td>
+								</tr>
+								<tr>
+									<td colspan="2" class="last">
+										<label for="resetBtn" class="away">취소 버튼</label>
+										<input type="reset" value="취소" class="btn5" id="resetBtn" />
+										<label for="submitBtn" class="away">확인 버튼</label>
+										<input type="submit" value="확인" class="btn6" id="submitBtn" />
+									</td>
+								</tr>
+							</table>
+						</fieldset>
+					</form>
+				</div>
+			</div>
+		</div>	
+	</body>
+</html>

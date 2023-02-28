@@ -1,0 +1,54 @@
+/* base */
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+*{ margin: 0px; padding: 0px; font-family: 'Nanum Gothic', monospace; font-size: normal; color:#666666; }
+li{ list-style: none; }
+a{ text-decoration: none; } 
+img{ border: none; }
+table{ border-collapse:collapse; border-spacing: 0px; }
+address{ font-style: normal; }
+fieldset{ border: none; }
+legend{ position: absolute; left: -999em; }
+label.away{ position: absolute; left: -999em; }
+
+.sTop img {width:100%; height:125px;}
+.direction{width:100% height:28px; position:relative;}
+.direction .invigator{width:100% height:25px;}
+.invigator{position:absolute; top: 0px; right: 10px;}
+.invigator img {float:left; width:20px; height: 20px; padding-top:5px;}
+.invigator li{ float: left; padding-left: 7px; padding-top:6px;}
+.invigator li a{font-weight: bolder; font-size: 13px; color: #596360;}
+
+.sTop h2 a img{width:90px; height: 45px; margin-top:40px; margin-bottom:15px;};
+
+.sBottom{width:100%; height:1000px;}
+.conBox{width:100%; height: 650px; text-align:center; border: 1px solid #CCCCCC; }
+
+.symbol{width:100%; height:150px; padding: 20px 0px;}
+.symbol h2{ font-size: 17px; font-weight:bolder; color:#596360; margin-bottom:10px; }
+.symbol img{ width:90%; height: 70px; margin-bottom:10px;  }
+.symbol p{font-size: 13px; font-weight:normal; color:#666666;  text-align:center;}
+
+.font{width:100%; height:150px; padding: 20px 0px; margin-bottom:20px; }
+.font h2{font-size: 17px; font-weight:bolder; color:#596360; margin-bottom:10px; }
+.font img{width:35%; height:70px;}
+.font p{font-size: 13px; font-weight:normal; color:#666666; line-height:15px;  } 
+.font p img{width:100px; height:20px; }
+
+
+.colorTab{width:100%; height: 200px; box-sizing: border-box;}
+.tab{width:100%; height:30px; }
+.tab li{float: left; width:50%; text-align:center; line-height:30px; box-sizing: border-box; }
+.tab li a{ display: block; width: 100%; height: 100%; font-size: 12px;font-weight: bolder; color:#88DBDF;}
+.tab li.on a{ background-color: #b7cdc7; color: #FFFFFF; }
+
+
+.colorCon > div{ width:100%; height:170px; display: none; }
+
+.mColor{width:100%; height: 100px; padding:15px 0px; }
+.mColor img{float:left; width:30%; height:70px; padding-left:20px;}
+.mColor p{font-size: 12px;font-weight: bolder; color: #596360; padding-top:7px;}
+
+.subColor{width:100%; height: 100px; padding:15px 0px; }
+.subColor img{float:left; width:30%; height:70px; padding-left:20px;}
+.subColor p{font-size: 12px;font-weight: bolder; color:#596360; padding-top:7px;}

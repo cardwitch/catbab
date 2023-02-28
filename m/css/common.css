@@ -1,0 +1,57 @@
+/* base */
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+*{ margin: 0px; padding: 0px; font-family: 'Nanum Gothic', monospace; font-size: normal; color:#666666; }
+li{ list-style: none; }
+a{ text-decoration: none; } 
+img{ border: none; }
+table{ border-collapse:collapse; border-spacing: 0px; }
+address{ font-style: normal; }
+fieldset{ border: none; }
+legend{ position: absolute; left: -999em; }
+label.away{ position: absolute; left: -999em; }
+
+/* header*/ 
+header{ width: 100%; height: 70px; padding: 15px; box-sizing: border-box; position: relative; }
+header h1{ width: 100%; height: 50px; text-align: center; }
+header h1 img{ height: 100%; }/* 이미지를 공간에 맞춤 */
+header li{ width: 40px; height: 40px; position: absolute; top: 15px; }
+header .panel{ left: 15px; }
+header .search{ right: 15px; }
+header li a{ display: block; width: 100%; height: 100%; }
+header li a img{ width: 100%; height: 100%; }
+
+/* footer*/
+footer{ width: 100%; height: 130px; background-color: #b7cdc7; }
+.fTop{ width: 100%; height: 50px; box-sizing: border-box; border-bottom: 1px solid #666666; }
+.fTop li{ float: left; width: 33.33%; text-align: center; line-height: 50px; } 
+.fTop li a{ font-size:15px; font-weight: bolder; color: #596360; }/* 글자가 작으면 등배단위인 em처리*/ 
+footer address{ margin-top:5px; text-align: center; color: #596360; font-size: 0.7em; font-weight:bold; padding-top: 5px; line-height: 1.5em; }
+footer address a{ color: #596360; }
+
+
+/* panelBox*/
+.panelBox{ width: 100%; height: 680px; position: absolute; top: 0; left: 0; background-color: rgba(0, 0, 0, 0.8); z-index: 1000; }
+.panelWrap{ width: 90%; height: 680px; margin-right: 20%; background-color:#FFFFFF; }
+.panelBox .closeBtn{ display: block; width: 10%; height: 100%; padding: 10px; box-sizing: border-box; font-size: 25px; font-weight: bold; color: #FFFFFF; text-align: right; position: absolute; top: 0px; right: 0px; z-index: 1001; }
+.pTop{ width: 100%; height: 55px; }
+.pTop a{ float: left; display: block; width: 49.5%; height: 55px; border-right: 1px solid #FFFFFF; background-color: #596360; color: #FFFFFF; font-weight: bold; text-align: center; line-height: 55px; }
+
+/* mNav */
+.mNav > ul > li{ border-bottom: 1px solid #999999; position: relative; }
+.mNav > ul > li > a{ display: block; font-weight: bolder; padding: 17px; padding-left: 57px; }
+.mNav > ul > li > .icon { display: block; width: 45px; height: 45px; position:absolute; top: 5px; left: 5px; }
+.mNav > ul > li > .icon > img{ width: 100%; height: 100%; }
+.subNav > li{ padding: 10px; border-bottom: 1px solid #999999; position: relative; background-color: #ededed; } 
+.subNav > li:last-child{ border-bottom: none; }
+.subNav > li > a{  display: block; font-size: 14px; font-weight: bold; padding-left: 40px; }
+.subNav > li > .icon { display: block; width: 28px; height: 28px; position:absolute; top: 7px; left: 15px; }
+.subNav > li > .icon > img{ width: 100%; height: 100%; }
+
+
+/* searchBox*/
+.searchBox{ width: 100%; height: 55px; background-color:#b7cdc7;  border-top: 1px solid #CCCCCC;  }
+.searchBox img{ float:left; height: 35px; width: 35px;  margin-top: 9px; margin-right: 7px; }
+.searchBox div{ float:left; width: 90%; height: 55px; box-sizing: border-box; padding: 0 20px; line-height: 48px; }
+.searchBox .closeBtn2{ display: block; width: 10%; height: 100%; padding: 10px 20px; box-sizing: border-box; font-size: 30px; font-weight: normal; color: #596360; text-align: right; position: absolute; top:70px; right: 20px; }
+#classBox{ float:left; margin-top:12px; width: 70%; height: 30px; background-color:#FFFFFF; border: 1px solid #596360; border-radius: 10em; box-sizing: content-box;  margin-left: 15px; transition: all 0.5s ease 0s;}

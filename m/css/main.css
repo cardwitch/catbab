@@ -1,0 +1,86 @@
+.mSlider{ width: 100%; overflow: hidden; }
+.bestProduct{ width: 100%; height: 205px; }
+.newProduct{ width: 100%; height: 205px; }
+.MDschoice{ width: 100%; height: 205px; }
+.notice{ width: 100%; height: 50px; border-top: 1px solid #ededed; }
+.review{ width: 100%; height: 50px;  border-top: 1px solid #ededed; }
+.freeEntry{ width: 100%; height: 50px;  border-top: 1px solid #ededed; border-bottom: 1px solid #ededed;}
+
+h3{ width: 100%; height: 50px; line-height: 50px; text-align: center; }
+
+
+/* best product*/ 
+.bestProduct h3{ background-color:#d9eff2; margin-bottom:20px;} 
+.bestProduct  span.kaki { color: #596360; }
+.bestProduct  span.white{ color: #FFFFFF; }
+.bestProduct{ position: relative;} 
+.bestProduct .bpWrap a{ display: block; width: 20px; height: 35px; position:absolute; top: 110px; }
+.bestProduct .bpWrap a img{ width: 100%; height: 100%; }
+.bestProduct .bpWrap .prev{ left: 20px; }
+.bestProduct .bpWrap .next{ right: 20px; }
+.bestProduct .bWrap{ width: 240px; height: 120px; margin: 0 auto; position: relative; overflow: hidden; }
+.bestProduct .bWrap .lineWrap{ height: 120px; position: absolute; top: 0; left: 0; }
+.bestProduct .bWrap .lineWrap > div{ float: left; width: 240px; height: 120px; }
+.bestProduct .bWrap .lineWrap > div img{ width: 240px; height: 120px; }
+
+
+ /*new Product */ 
+.newProduct h3{ background-color:#b7cdc7;  margin-bottom:20px;}
+.newProduct  span.kaki { color: #596360; }
+.newProduct  span.white{ color: #FFFFFF; }
+.newProduct{ position: relative; } 
+.newProduct .npWrap a{ display: block; width: 20px; height: 35px; position:absolute; top: 110px; }
+.newProduct .npWrap a img{ width: 100%; height: 100%;  }
+.newProduct .npWrap .prev{ left: 20px; }
+.newProduct .npWrap .next{ right: 20px; }
+.newProduct .nWrap{ width: 240px; height: 120px; margin: 0 auto; position: relative; overflow: hidden; }
+.newProduct .nWrap .lineWrap{ height: 120px; position: absolute; top: 0; left: 0; }
+.newProduct .nWrap .lineWrap > div{ float: left; width: 240px; height: 120px; }
+.newProduct .nWrap .lineWrap > div img{ width: 240px; height: 120px;  }
+
+/* MD's choice */ 
+.MDschoice h3{ background-color:#bed5d8;  margin-bottom:20px;} 
+.MDschoice  span.kaki { color: #596360; }
+.MDschoice  span.white{ color: #FFFFFF; }
+.MDschoice{ position: relative; } 
+.MDschoice .mcWrap a{ display: block; width: 20px; height: 35px; position:absolute; top: 110px;}
+.MDschoice .mcWrap a img{ width: 100%; height: 100%; }
+.MDschoice .mcWrap .prev{ left: 20px; }
+.MDschoice .mcWrap .next{ right: 20px; }
+.MDschoice .mWrap{ width: 240px; height: 120px; margin: 0 auto; position: relative; overflow: hidden; }
+.MDschoice .mWrap .lineWrap{ height: 120px; position: absolute; top: 0; left: 0; }
+.MDschoice .mWrap .lineWrap > div{ float: left; width: 240px; height: 120px; }
+.MDschoice .mWrap .lineWrap > div img{ width: 240px; height: 120px; }
+
+/* notice */
+.notice h3{ float: left; width: 15%; height: 50px; color: #596360; }
+.notice img {float:left; padding-top:2px; width: 45px; height: 45px;}
+.notice ul{ float: left; width: 85%; height: 50px; position: relative; overflow: hidden;  }
+.notice li{ line-height: 50px; position: relative; width: 100%; }
+.notice li a{ font-size: 13px; font-weight: bold; color: #596360; display: inline-block; width: 63%; margin-right: 5%;  height: 50px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.notice li .date{ position: absolute; right: 0px; display: inline-block; width: 30%; margin-right: 3%;   font-size: 14px; font-weight: bolder; height: 50px; color: #596360; }
+
+/* review */
+.review h3{ float: left; width: 15%; height: 50px; color: #596360; background-color:#FFFFFF; }
+.review img {float:left; padding-top:2px; width: 45px; height: 45px;}
+.review ul{ float: left; width: 85%; height: 50px; position: relative; overflow: hidden;  }
+.review li{ line-height: 50px; position: relative; width: 100%; }
+.review li a{ font-size: 13px; font-weight: bold; color: #596360; display: inline-block; width: 63%; margin-right: 5%; height: 50px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.review li .date{ position: absolute; right: 0px; display: inline-block; width: 30%; margin-right: 3%;  font-size: 14px; font-weight: bolder; height: 50px; color: #596360;; }
+
+/* freeEntry*/ 
+.freeEntry h3{ float: left; width: 15%; height: 50px; color:#596360; background-color: #FFFFFF; }
+.freeEntry img {float:left; padding-top:2px; width: 45px; height: 45px;}
+.freeEntry ul{ float: left; width: 85%; height: 50px; position: relative; overflow: hidden;  }
+.freeEntry li{ line-height: 50px; position: relative; width: 100%; }
+.freeEntry li a{ font-size: 13px; font-weight: bold;  color: #596360;; display: inline-block; width: 63%; margin-right: 5%; height: 50px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.freeEntry li .date{ position: absolute; right: 0px; display: inline-block; width: 30%; margin-right: 3%; font-size: 14px; font-weight: bolder;  height: 50px; color:  #596360; }
+
+
+
+/* snsNav*/
+.snsNav{ width: 100%; height: 50px; padding: 5px; box-sizing: border-box; }
+.snsNav ul{ width: 197.5px; height: 45px; margin: 0 auto; }
+.snsNav li{ float: left; height: 45px; width: 25%; }
+.snsNav li a{ display: block; width: 100%; height: 100%; text-align: center; }
+.snsNav li a img{ width: 40px; height: 40px; }

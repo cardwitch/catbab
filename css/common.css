@@ -1,0 +1,111 @@
+/* base */
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+*{ margin: 0px; padding: 0px; font-family: 'Nanum Gothic', monospace; font-size: 12px; color:#666666; }
+li{ list-style: none; }
+a{ text-decoration: none; } 
+img{ border: none; }
+table{ border-collapse:collapse; border-spacing: 0px; }
+address{ font-style: normal; }
+fieldset{ border: none; }
+legend{ position: absolute; left: -999em; }
+input[type=button], input[type=submit], input[type=reset], input[type=image], button{ cursor: pointer; }
+label.away{ position: absolute; left: -999em; }
+
+
+/* layout */
+header{ width: 100%; min-width: 1000px; height: 150px; box-sizing: border-box; border-bottom: 1px solid #CCCCCC; position:relative; }
+footer{ width: 100%; min-width: 1000px; height: 150px; border-top: 1px solid #CCCCCC; background-color: #889894; }
+
+
+.hTop{ width: 1000px; height: 110px; margin: 0 auto; overflow: hidden; position: relative; }
+.hBottom{ width: 100%; min-width: 1000px; height: 40px; margin: 0 auto; background-color:#B3C4BF; }
+
+.fWrap{ width: 1000px; height: 150px; margin: 0 auto; overflow: hidden; }
+
+
+.ltNav{ position: absolute; left: 0px; top: 49px; }
+.hTop h1{ padding-top: 15px; padding-bottom: 10px; text-align: center; }
+.hTop form{ position: absolute;  top: 42px; right: 140px; }
+.hTop input{ float: left; width: 118px; height: 23px; outline: medium none; }
+.rtNav{ position: absolute; right: 0px; top: 49px; }
+
+.mNav{ width: 1000px; height: 40px; margin: 0 auto; }
+
+.fWrap h1{ float:left; width: 100px; height: 150px; padding-top: 25px;}
+.fTop{ float: left; width: 750px; height: 50px; margin-left: 25px; border-bottom: 1px solid #FFFFFF; }
+.fBottom{ float: left; width:900px; height: 150px; }
+
+
+.fTop{ float: left; width: 750px; height: 50px; margin-left: 25px; border-bottom: 1px solid #FFFFFF; position:relative;}
+
+/* ltNav */
+.ltNav li{ float: left; } 
+.ltNav .ltNav01{ padding: 0px 10px; }
+.ltNav .ltNav02,.ltNav03,.ltNav04{ padding: 0px 10px; background-image: url(../images/common/cc_common_tnav_line.gif); background-repeat: no-repeat; background-position: 0 2px; }
+
+/* rtNav */
+.rtNav li{ float: left; }
+.rtNav .rtNav01 { top: 49px; padding: 0px 10px; }
+.rtNav .rtNav02{ top: 49px; padding: 0px 10px; background-image: url(../images/common/cc_common_tnav_line.gif); background-repeat: no-repeat; background-position: 0 2px; }
+
+/* search */
+input[type="search"]{ background:url("../images/common/cc_common_search.gif") no-repeat scroll 9px center #FFFFFF; border: 1px solid #CCCCCC; border-radius: 10em; box-sizing: content-box; padding-left: 32px; transition: all 0.5s ease 0s; }
+
+/* mNav */
+.mNav ul{ float: right;}
+.mNav li{ float: left; margin-top: 12px;  position: relative; }
+.mNav li.first a{ padding: 0px 25px; color: #FFFFFF; font-size: 16px; font-weight: bold; background-image: none; }
+.mNav li a{ padding: 0px 25px; color: #FFFFFF; font-size: 16px; font-weight: bold; background-image:url(../images/common/cc_common_mnav_line.gif); background-repeat:no-repeat;  background-position: 0 2px; }
+.mNav li.last a{ padding: 0px 35px; color: #FFFFFF; font-size: 16px; font-weight: bold; background-image:url(../images/common/cc_common_mnav_line.gif); background-repeat:no-repeat;  background-position: 0 2px; }
+.mNav li a:hover{ color: #596360; }
+.mNav ul li a.on{ color: #596360; }
+
+/* mNav */
+
+.subNav{ position: absolute; top: 25px; width: 160px; height: 185px; z-index: 1000; }
+/* 배경보다 .sub_nav들이 위로 올라와야 하기 때문에 z-index 처리 */
+.subNav  li{ line-height: 30px; text-align: left;}
+.subNav  li  a{ font-size: 14px; margin-left: 20px;color: #596360; background-image: none; }
+.first .subNav li  a{ font-size: 14px; color: #596360; background-image: none; }
+.last .subNav  li  a{ font-size: 14px;  margin-left: 0px; color: #596360; background-image: none; }
+.subNav  li  a:hover{ text-decoration: underline; background-image: none; }
+.subNavBg{ width: 100%; min-width: 1000px; height: 235px; position: absolute; top: 150px; left: 0px; background-color: #FFFFFF; border-bottom: 1px solid #CCCCCC; z-index: 999; }
+/* 제이쿼리에서 .sub_nav의 배경으로 들어갈 css */
+
+
+/* fBottom */
+.fBottom address{ padding: 5px; padding-left: 25px;font-size: 11px; line-height: 12px; color:#FFFFFF;}
+
+
+
+/* fNav */
+.fNav{ float: left; width: 500px; height: 30px;  }
+.fNav li{ float: left;  margin-top: 18px; }
+.fNav .first a{  padding: 0px 10px; color: #FFFFFF; font-size: 12px; font-weight: bold; padding-left: 25px;  background-image: none }
+.fNav li a{ padding: 0px 10px; color: #FFFFFF; font-size: 12px; font-weight: bold; background-image:url(../images/common/cc_common_fnav_line.gif); background-repeat:no-repeat;  background-position: 0 2px;  }
+.fNav li a:hover{ color: #596360; }
+
+
+
+
+
+/* familySite */
+
+.fSite{ position: absolute; top: 10px; right: 10px; }
+.fSite button{ width: 135px; height: 25px; font-size: 12px; border: 1px solid #596360; background-color:#FFFFFF; box-sizing: border-box; cursor: pointer; text-align: left; padding-left: 10px; color: #ffffff; position: relative; }
+.fSite .icon{ position: absolute; right: 0px; top: 0px; display: block; width: 25px; height: 23px; border-left: 1px solid #FFFFFF; text-align: center; line-height: 23px; }
+.fSite .icon180{ transform: rotate(180deg); border-left: none; border-right: 1px solid #596360; }/* 제이쿼리에서 실행할 클래스 */
+.fSite .font{ color: #596360; font-size: 12px; }
+.fSite ul{ width: 135px; height: 125px; border: 1px solid #596360; border-top: none; box-sizing: border-box; background-color:#FFFFFF; }
+.fSite li{ line-height: 23px; padding-left: 10px; }
+.fSite a{ color: #596360; font-size: 12px; }
+
+
+/*mobilelink*/
+
+
+.mLink{ position:absolute; width:125px; height: 55px; padding:5px 0px;top:55px; right:15px; border: 1px solid #FFFFFF;}
+.mLink a img{ float:left; width:50px; width: 50px; padding: 0px 10px;padding-top:3px;}
+.mLink p a{font-size: 12px; font-weight:bold; color:#FFFFFF; }
+.mLink p a:hover{color:#000000;}

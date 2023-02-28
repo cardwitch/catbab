@@ -1,0 +1,25 @@
+/* base */
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+*{ margin: 0px; padding: 0px; font-family: 'Nanum Gothic', monospace; font-size: normal; color:#666666; }
+li{ list-style: none; }
+a{ text-decoration: none; } 
+img{ border: none; }
+table{ border-collapse:collapse; border-spacing: 0px; }
+address{ font-style: normal; }
+fieldset{ border: none; }
+legend{ position: absolute; left: -999em; }
+label.away{ position: absolute; left: -999em; }
+
+.sTop img {width:100%; height:125px;}
+.direction{width:100% height:28px; position:relative;}
+.direction .invigator{width:100% height:25px;}
+.invigator{position:absolute; top: 0px; right: 10px;}
+.invigator img {float:left; width:20px; height: 20px; padding-top:5px;}
+.invigator li{ float: left; padding-left: 7px; padding-top:6px;}
+.invigator li a{font-weight: bolder; font-size: 13px; color: #596360;}
+
+.sTop h2 a img{width:90px; height: 45px; margin-top:40px; margin-bottom:5px;};
+
+.sBottom{width:100%; height:1000px;}
+.conBox{width:100%; height:500px; text-align:center; border: 1px solid #CCCCCC; }

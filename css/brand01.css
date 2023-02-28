@@ -1,0 +1,55 @@
+section{ width: 1000px; margin: 0 auto; overflow: hidden;  border-right: 1px solid #596360; border-left: 1px solid #596360; }
+.sTop{ width: 1000px; height: 280px; }
+.sTop img{ width: 1000px; height: 280px; }
+
+
+.sBottom{ width: 1000px; margin: 0 auto; overflow: hidden;  }
+.conWrap{ width: 800px;  margin: 0 auto; overflow: hidden; box-sizing:border-box; padding-bottom: 150px; position:relative;}
+.conWrap .invigator{position:absolute; top: 15px; right: 0px;}
+.conWrap .invigator img {float:left; width:20px; height: 20px;}
+.conWrap .invigator li{ float: left; padding-left: 7px; padding-top:6px;}
+.conWrap .invigator li a{font-weight: bolder; font-size: 13px;}
+
+.conWrap .title{text-align: center;  padding-top:35px; margin:10px 0px; margin-bottom:15px;}
+.conWrap .content{ float:left; width:100%; height: 1200px; box-sizing:border-box;  padding:15px; border: 1px solid #596360; overflow: hidden; background-image:url(../images/sub/company_bg.png); }
+.history{float:left;  width:100%; height:770px; margin:0 55px;  }
+.left{ float:left; width:50%; height:770px; padding-left:20px; box-sizing:border-box; }
+
+
+.twofour{ width:100%; height:140px; padding-top:50px;}
+.twofour h3{ font-size: 24px; padding-bottom:10px;}
+.twofour li{ font-size: 17px; padding-bottom:5px; }
+.twofour li span{ font-size: 17px; font-weight:bold;}
+
+.twoseven{ width:100%; height:200px; padding-top:45px;}
+.twoseven h3{ font-size: 24px; padding-bottom:10px;}
+.twoseven li{ font-size: 17px; padding-bottom:5px; }
+.twoseven li span{ font-size: 17px; font-weight:bold;}
+
+.eleven{ width:100%; height:200px; padding-top:5px;}
+.eleven h3{ font-size: 24px; padding-bottom:10px;}
+.eleven li{ font-size: 17px; padding-bottom:5px; }
+.eleven li span{ font-size: 17px; font-weight:bold;}
+
+.right{float:right; width:50%; height:770px; padding-left:80px; box-sizing:border-box; padding-top:70px;}
+
+.zerofive{ width:100%; height:140px; padding-top:60px;}
+.zerofive h3{ font-size: 24px; padding-bottom:10px;}
+.zerofive li{ font-size: 17px; padding-bottom:5px; }
+.zerofive li span{ font-size: 17px; font-weight:bold;}
+
+.zeroeight{ width:100%; height:200px; padding-top:55px;}
+.zeroeight h3{ font-size: 24px; padding-bottom:10px;}
+.zeroeight li{ font-size: 17px; padding-bottom:5px; }
+.zeroeight li span{ font-size: 17px; font-weight:bold;}
+
+.sixteen{ width:100%; height:200px; padding-top:15px;}
+.sixteen h3{ font-size: 24px; padding-bottom:10px;}
+.sixteen li{ font-size: 17px; padding-bottom:5px; }
+.sixteen li span{ font-size: 17px; font-weight:bold;}
+
+
+.winner{ float:left; width:100%; height: 430px;  }
+.winner img{ float:left; width:50%; height:260px; padding:80px 15px;}
+.winner h4{ font-size:24px; padding-bottom:35px; padding-top:110px;}
+.winner p{ font-size:18px; padding-bottom:3px; }

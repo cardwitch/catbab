@@ -1,0 +1,37 @@
+/* base */
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+*{ margin: 0px; padding: 0px; font-family: 'Nanum Gothic', monospace; font-size: 12px; color:#666666; }
+li{ list-style: none; }
+a{ text-decoration: none; } 
+img{ border: none; }
+table{ border-collapse:collapse; border-spacing: 0px; }
+address{ font-style: normal; }
+fieldset{ border: none; }
+legend{ position: absolute; left: -999em; }
+input[type=button], input[type=submit], input[type=reset], input[type=image], button{ cursor: pointer; }
+label.away{ position: absolute; left: -999em; }
+
+/* 해당 페이지가 iframe으로 들어가는 경우 iframe이 지정한 사이즈보다 해당 페이지의 사이즈가 더 크면 무조건 스크롤바가 생기는데 그것을 방지하기 위해 사용*/
+html{ overflow: hidden; }
+
+/* loginBox */
+.loginBox{
+	width: 100%; height: 500px; margin:0px; padding: 172.2px 0px; box-sizing: border-box; background-image: url(../images/sub/login_bg.png); background-size: 100%, 900px;background-repeat: no-repeat; background-position: 0 0;
+position: relative;}
+.formBox{width: 100%; height: 155px; border: 1px solid #596360; background-color:#FFFFFF; position: absolute; }
+
+/* login */
+.formBox form{ margin-top: 40px; margin-left: 30px;}
+#login{ padding-right: 27px; position: relative; }
+#login label[for=ccId]{ margin-right: 18px; font-size: 11px; font-weight: bold; color: #231916; letter-spacing: -0.5px; }
+#login label[for=ccPw]{ margin-right: 16px; font-size: 11px; font-weight: bold; color: #231916; }
+#ccId, #ccPw{width: 140px; height: 25px; margin-bottom: 5px; padding-left: 4px; box-sizing: border-box; border: 1px solid #596360;}
+#loginBtn{ position: absolute; top: 0px; left: 207px; border: none; width: 55px; height: 55px; background-image:url(../images/sub/loginBtn.png);background-size:55px 55px; background-repeat: no-repeat; background-position: 0 0;
+}
+
+/* search */
+.formBox a{font-size: 11px; color: #231916; }
+#search {padding-left: 60px; height: 13px; }
+#search label[for=idSave]{font-size: 11px; color: #231916; }
+.formBox input[type=checkBox]{position: relative; top: 3px;}

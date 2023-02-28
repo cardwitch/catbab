@@ -1,0 +1,34 @@
+section{ width: 1000px; margin: 0 auto; overflow: hidden;  border-right: 1px solid #596360; border-left: 1px solid #596360; }
+.sTop{ width: 1000px; height: 280px; }
+.sTop img{ width: 1000px; height: 280px; }
+
+
+.sBottom{ width: 1000px; margin: 0 auto; overflow: hidden;  }
+.conWrap{ width: 800px;  margin: 0 auto; overflow: hidden; box-sizing:border-box; padding-bottom: 150px; position:relative;}
+.conWrap .invigator{position:absolute; top: 5px; right: 0px; }
+.conWrap .invigator img {float:left; width:20px; height: 20px;}
+.conWrap .invigator li{ float: left; padding-left: 7px; padding-top:6px;}
+.conWrap .invigator li a{font-weight: bolder; font-size: 13px;}
+
+.conWrap .title{text-align: center;  padding-top:35px; margin:10px 0px; margin-top:15px;}
+.conWrap .content{ width:100%; height: 825px; padding: 50px; box-sizing:border-box;  border: 1px solid #596360; overflow: hidden; }
+#map{width: 700px; height: 400px; margin: 0 auto; border: 1px solid #596360; margin-bottom:25px;}
+
+.content .address {width:100%; height:64px; padding:20px 0px; position:relative;margin-bottom:35px;}
+.address h3{font-size:13px; font-weight:bold; color:#000000; margin-bottom:10px;}
+.address p{font-size:13px; font-weight:normal; color:#666666; text-align:center;}
+
+.content .transport .sub{float:left; width:33.2%; height:74px; padding-bottom:15px; position:relative; border-right: 1px solid #596360;}
+.sub img{width:20px; height:20px;position:absolute; right:110px;}
+.sub h3{ font-size:13px; font-weight:bold; color:#000000; margin-bottom:10px; padding-top:25px;}
+.sub p{ font-size:13px; font-weight:normal; color:#666666; text-align:center;}
+
+.content .transport .bus{ float:left; width:33.2%; height:74px; padding-bottom:15px; position:relative;border-right: 1px solid #596360;}
+.bus img{width:20px; height:20px;position:absolute; right:107px;}
+.bus h3{font-size:13px; font-weight:bold; color:#000000; margin-bottom:10px; padding-top:25px;}
+.bus p{font-size:13px; font-weight:normal; color:#666666; text-align:center;}
+
+.content .transport .car{float:left; width:33.2%; height:74px; padding-bottom:15px; position:relative;}
+.car img{width:20px; height:20px;position:absolute; right:110px;}
+.car h3{font-size:13px; font-weight:bold; color:#000000; margin-bottom:10px; padding-top:25px;}
+.car p{font-size:13px; font-weight:normal; color:#666666; text-align:center;}

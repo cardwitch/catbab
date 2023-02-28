@@ -1,0 +1,18 @@
+section{ width: 1000px; margin: 0 auto; overflow: hidden;  border-right: 1px solid #596360; border-left: 1px solid #596360; }
+.sTop{ width: 1000px; height: 280px; }
+.sTop img{ width: 1000px; height: 280px; }
+
+
+.sBottom{ width: 1000px; margin: 0 auto; overflow: hidden;  }
+.conWrap{ width: 800px;  margin: 0 auto; overflow: hidden; box-sizing:border-box; padding-bottom: 150px; position:relative;}
+.conWrap .invigator{position:absolute; top: 5px; right: 0px;}
+.conWrap .invigator img {float:left; width:20px; height: 20px;}
+.conWrap .invigator li{ float: left; padding-left: 7px; padding-top:6px;}
+.conWrap .invigator li a{font-weight: bolder; font-size: 13px;}
+
+.conWrap .title{text-align: center;  padding-top:35px; margin-bottom:10px;}
+.conWrap .subTitle{float:left; width:100%; height: 50px; padding:17px 20px; box-sizing:border-box; border:1px solid #ededed; background-color:#ededed;}
+.conWrap .subTitle li{float: left; padding: 0 17px;}
+.conWrap .subTitle li a{font-weight: bolder; font-size: 13px; color:#596360;}
+.conWrap .subTitle li a:hover{color:#000000;}
+.conWrap .content{ width:100%; height: 500px; box-sizing:border-box;  border-right: 1px solid #ededed; border-left: 1px solid #ededed; border-bottom: 1px solid #ededed; overflow: hidden; }

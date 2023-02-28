@@ -1,0 +1,125 @@
+/* base */
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+*{ margin: 0px; padding: 0px; font-family: 'Nanum Gothic', monospace; font-size: 12px; color:#666666; }
+li{ list-style: none; }
+a{ text-decoration: none; } 
+img{ border: none; }
+table{ border-collapse:collapse; border-spacing: 0px; }
+address{ font-style: normal; }
+fieldset{ border: none; }
+legend{ position: absolute; left: -999em; }
+input[type=button], input[type=submit], input[type=reset], input[type=image], button{ cursor: pointer; }
+label.away{ position: absolute; left: -999em; }
+
+.join{ width:800px; height: 975px; margin: 0px;}
+.top{ width: 800px; height: 200px; background-image:url(../images/common/join_bg.gif); background-repeat: no-repeat; background-position:0 0; }
+.bottom{ width: 800px; height: 675px; padding:33px 100px; box-sizing: border-box; }
+.bottom .first{font-size: 15px; font-weight: bold; line-height: 30px; padding-left:8px; margin-bottom: 30px; color:#231815; background-image:url(../images/common/join_catbab_word.gif);background-repeat: no-repeat; background-position:128px 0px;}
+
+
+/* termsBox */
+.termsBox{float:left; width: 200px; height: 555px; margin-right: 50px; box-sizing: border-box; }
+.termsBox h2{width: 200px; height: 14px; font-size: 14px; font-weight: bold; padding: 13px 0px; margin-bottom: 20px; text-align: center; color:#FFFFFF; background-color:#231815; }
+.termsBox h3{font-size: 11px;  font-weight: bold; color:#231815; margin-bottom: 7px;}
+
+/* termsBox01 */
+.termsBox .termsBox01, .termsBox02, .termsBox03, .termsBox04{ width: 200px; height: 70px; box-sizing: border-box;	border: 1px solid #ededed; background-color:#f9f8f8; overflow-x: hidden;}
+.termsBox01 p{font-size: 9px; color:#666666; margin-top: 5px; margin-bottom: 20px;}
+.termsBox01 h4{font-size: 11px; font-weight: bold; color:#000000; }
+.termsBox form{ text-align:right; margin: 5px 3px; font-size: 9px; line-height: 13px; color:#666666;}
+input[type="checkbox"]{margin-left: 10px; position: relative; top: 3px; }
+
+/* termsBox02 */
+.termsBox02 p{font-size: 9px; color:#666666; margin-top: 5px;}
+
+/* termsBox03 */
+.termsBox03 h4{font-size: 11px; font-weight: bold; color:#000000; margin: 14px 0px;}
+.termsBox03 p{font-size: 9px; color:#666666;}
+
+/* termsBox04 */
+.termsBox04 h4{font-size: 11px; font-weight: bold; color:#000000; margin: 14px 0px;}
+.termsBox04 p{font-size: 9px; color:#666666;}
+
+.termsBox .last{text-align:left; margin: 9px  font-size: 9px; color:#666666;}
+
+
+
+/* joinBox */
+.joinBox{float:left; width: 350px; height: 560px; box-sizing: border-box; }
+.joinName h2{width: 350px; height: 14px; font-size: 14px; font-weight: bold; padding: 13px 0px; margin-bottom: 13px; text-align: center; color:#FFFFFF; background-color:#231815; }
+.joinName h3{ width: 350px; height: 14px; font-size: 14px; font-weight: bold; color:#231815;}
+.joinName p{ text-align: right; font-size: 9px; color:#666666; margin-bottom:2px;}
+.joinBox span{ color:#a1d7df; }
+
+.joinBox table{ width: 350px; border-top: 1px solid #666666;}
+.joinBox th{width: 100px; padding: 5px; font-size: 10px; font-weight: bold; color:#231815; box-sizing: border-box; border-bottom: 1px solid #ededed; background-color: #f9f8f8; text-align: left; }
+.joinBox th label{font-size: 10px; font-weight: bold; color:#231815; }
+.joinBox td{width: 250px; padding: 5px; box-sizing: border-box; border-bottom: 1px solid #ededed;}
+.joinBox td label{font-size: 9px; font-weight: bold; color:#504b4a; }
+.joinBox td p{font-size: 9px; color:#666666; padding-top:3px;}
+input, input::-webkit-input-placeholder{font-size: 10px; color:#a2a1a1; line-height: 3;}
+input[type="submit"], input[type="button"], input[type="reset"]{ font-size: 9px; font-weight: bold; color:#231815; text-align: center; line-height: 22px;}
+select{font-size: 9px; color:#666666;}
+
+/* 해당 페이지가 iframe으로 들어가는 경우 iframe이 지정한 사이즈보다 해당 페이지의 사이즈가 더 크면 무조건 스크롤바가 생기는데 그것을 방지하기 위해 사용*/
+html{ overflow: hidden; }
+
+/* form */
+.joinBox .box1{
+	width: 100px; height: 22px; padding-left: 2px; box-sizing: border-box;
+	border: 1px solid #ededed;
+}
+.joinBox .box2{
+	width: 125px; height: 22px; box-sizing: border-box;
+	border: 1px solid #ededed; margin-bottom:3px;
+}
+.joinBox .box3{
+	width: 77px; height: 22px; box-sizing: border-box;
+	border: 1px solid #ededed;
+}
+.joinBox .box4{
+	width: 245px; height: 22px; box-sizing: border-box;
+	border: 1px solid #ededed; margin-bottom: 2px;
+}
+.joinBox .box5{
+	width: 44px; height: 22px; box-sizing: border-box;
+	border: 1px solid #ededed;
+}
+.joinBox .box6{
+	width: 55px; height: 22px; box-sizing: border-box;
+	border: 1px solid #ededed;
+}
+
+.joinBox .btn1{
+	width: 70px; height: 22px; box-sizing: border-box; border: none;
+	background-color: #a2a1a1; color: #231815;
+}
+.joinBox .btn2{
+	width: 80px; height: 22px; box-sizing: border-box; border: none;
+	background-color: #a2a1a1; color: #231815;
+}
+.joinBox .btn3{
+	width: 60px; height: 22px; box-sizing: border-box;border: 1px solid #231815;
+	background-color: #FFFFFF; 	color: #231815;
+}
+.joinBox .btn4{
+	width: 60px; height: 22px; box-sizing: border-box; border: none;
+	background-color: #a2a1a1; color: #231815; margin-bottom: 2px;
+}
+.joinBox .btn5{
+	width: 70px; height: 30px; box-sizing: border-box; border: 1px solid #231815;
+	background-color: #FFFFFF; color: #231815;
+}
+.joinBox .btn6{
+	width: 70px; height: 30px; box-sizing: border-box; border: none;
+	background-color: #a2a1a1; color: #231815;
+}
+.joinBox .last{
+	width: 350px; text-align: right; padding:5px; border: none;
+}
+
+.joinBox input[type="radio"]{
+	margin-left: 10px;
+	position: relative; top: 2px;
+}

@@ -1,0 +1,64 @@
+/* base */
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+*{ margin: 0px; padding: 0px; font-family: 'Nanum Gothic', monospace; font-size: normal; color:#666666; }
+li{ list-style: none; }
+a{ text-decoration: none; } 
+img{ border: none; }
+table{ border-collapse:collapse; border-spacing: 0px; }
+address{ font-style: normal; }
+fieldset{ border: none; }
+legend{ position: absolute; left: -999em; }
+label.away{ position: absolute; left: -999em; }
+
+.sTop img {width:100%; height:125px;}
+.direction{width:100% height:28px; position:relative;}
+.direction .invigator{width:100% height:25px;}
+.invigator{position:absolute; top: 0px; right: 10px;}
+.invigator img {float:left; width:20px; height: 20px; padding-top:5px;}
+.invigator li{ float: left; padding-left: 7px; padding-top:6px;}
+.invigator li a{font-weight: bolder; font-size: 13px; color: #596360;}
+
+.sTop h2 a img{width:90px; height: 45px; margin-top:40px; margin-bottom:15px;};
+
+.sBottom{width:100%; height:1000px;}
+.conBox{width:100%; height: 450px; text-align:center; border-bottom: 1px solid #CCCCCC; }
+
+
+
+.faqTab{width:100%; height: 240px; box-sizing: border-box;  }
+.tab{width:100%; height:60px; border: 1px solid #C0C0C0;}
+.tab li{float: left; width:50%; text-align:center; line-height:30px; box-sizing: border-box; border-right: 1px solid #C0C0C0; border-bottom: 1px solid #C0C0C0; }
+.tab li a{ display: block; width: 100%; height: 100%; font-size: 15px;font-weight: bolder; }
+.tab li.on a{ background-color: #b7cdc7; color: #FFFFFF; }
+
+
+.faqCon > div{ width:100%; height:170px; display: none;margin-top:10px; }
+
+.member dt{ width: 100%; height: 30px; line-height: 30px; border: 1px solid gray; margin-top:2px;position: relative;  box-sizing: border-box; }
+.member dd{ width: 100%; height: 30px; line-height: 30px; background-color: #ededed; border: 1px solid gray; border-top: none; box-sizing: border-box; }
+.member dd img{ float:left; width:20px; height:20px; margin:5px;}
+.member .icon{ display: block; width: 20px; height: 20px; text-align: center; font-weight:bolder; line-height: 20px; border: 1px solid gray;  position: absolute; top: 3px; right: 0px; }
+.member dt a{ display: block; width: 100%; height: 30px; text-decoration: none; color: #333333; padding-left: 20px;  }
+.member dt a img{ float:left; width:20px; height:20px; text-align: center; margin-right:10px;}
+
+.order dt{ width: 100%; height: 30px; line-height: 30px; border: 1px solid gray; margin-top:2px;position: relative;  box-sizing: border-box; }
+.order dd{ width: 100%; height: 30px; line-height: 30px; background-color: #ededed; border: 1px solid gray; border-top: none; box-sizing: border-box; }
+.order dd img{ float:left; width:20px; height:20px; margin:5px;}
+.order .icon{ display: block; width: 20px; height: 20px; text-align: center; font-weight:bolder; line-height: 20px; border: 1px solid gray;  position: absolute; top: 3px; right: 0px; }
+.order dt a{ display: block; width: 100%; height: 30px; text-decoration: none; color: #333333; padding-left: 20px;  }
+.order dt a img{ float:left; width:20px; height:20px; text-align: center; margin-right:10px;}
+
+.ship dt{ width: 100%; height: 30px; line-height: 30px; border: 1px solid gray; margin-top:2px;position: relative;  box-sizing: border-box; }
+.ship dd{ width: 100%; height: 30px; line-height: 30px; background-color: #ededed; border: 1px solid gray; border-top: none; box-sizing: border-box; }
+.ship dd img{ float:left; width:20px; height:20px; margin:5px;}
+.ship .icon{ display: block; width: 20px; height: 20px; text-align: center; font-weight:bolder; line-height: 20px; border: 1px solid gray;  position: absolute; top: 3px; right: 0px; }
+.ship dt a{ display: block; width: 100%; height: 30px; text-decoration: none; color: #333333; padding-left: 20px;  }
+.ship dt a img{ float:left; width:20px; height:20px; text-align: center; margin-right:10px;}
+
+.cancel dt{ width: 100%; height: 30px; line-height: 30px; border: 1px solid gray; margin-top:2px;position: relative;  box-sizing: border-box; }
+.cancel dd{ width: 100%; height: 30px; line-height: 30px; background-color: #ededed; border: 1px solid gray; border-top: none; box-sizing: border-box; }
+.cancel dd img{ float:left; width:20px; height:20px; margin:5px;}
+.cancel .icon{ display: block; width: 20px; height: 20px; text-align: center; font-weight:bolder; line-height: 20px; border: 1px solid gray;  position: absolute; top: 3px; right: 0px; }
+.cancel dt a{ display: block; width: 100%; height: 30px; text-decoration: none; color: #333333; padding-left: 20px;  }
+.cancel dt a img{ float:left; width:20px; height:20px; text-align: center; margin-right:10px;}

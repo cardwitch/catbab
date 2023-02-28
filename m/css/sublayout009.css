@@ -1,0 +1,45 @@
+/* base */
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+*{ margin: 0px; padding: 0px; font-family: 'Nanum Gothic', monospace; font-size: normal; color:#666666; }
+li{ list-style: none; }
+a{ text-decoration: none; } 
+img{ border: none; }
+table{ border-collapse:collapse; border-spacing: 0px; }
+address{ font-style: normal; }
+fieldset{ border: none; }
+legend{ position: absolute; left: -999em; }
+label.away{ position: absolute; left: -999em; }
+
+.sTop img {width:100%; height:125px;}
+.direction{width:100% height:28px; position:relative;}
+.direction .invigator{width:100% height:25px;}
+.invigator{position:absolute; top: 0px; right: 10px;}
+.invigator img {float:left; width:20px; height: 20px; padding-top:5px;}
+.invigator li{ float: left; padding-left: 7px; padding-top:6px;}
+.invigator li a{font-weight: bolder; font-size: 13px; color: #596360;}
+
+.sTop h2 a img{width:90px; height: 45px; margin-top:40px; margin-bottom:15px;};
+
+.sBottom{width:100%; height:1000px;}
+.conBox{width:100%; height: 570px; text-align:center; border: 1px solid #CCCCCC; }
+
+#map{width: 100%; height: 210px; margin: 0 auto; margin-bottom:10px;}
+
+.content .address {width:100%; height:64px; padding:20px 0px; margin-bottom:25px;}
+.address h3{font-size:13px; font-weight:bold; color:#000000; }
+.address p{font-size:13px; font-weight:normal; color:#666666; text-align:center;}
+
+.mapTab01{width:100%; height: 200px; box-sizing: border-box; margin-top: 20px;}
+.tab01{width:140px; height:50px; margin:0 auto; }
+.tab01 li{float: left; width:33.3%; text-align:center; line-height:30px; }
+.tab01 li a{ width: 100%; height: 100%; font-size: 12px;font-weight: bolder;}
+.tab01 li a img {  width: 30px; height: 30px; margin-left: 2px; margin-top: 2px; border-radius: 20%; background-color:#b7cdc7;  background-size: 60px 60px;}
+.tab01 li.on a{color:#596360; }
+.tab01 li.on a img{ width: 30px; height: 30px;  border-radius: 20%; background-color: #596360; background-size: 60px 60px; }
+
+
+.mapCon01 > div{ width:100%; height:150px; display: none; border-bottom:  1px solid #C0C0C0;}
+.subway p{font-size:13px; font-weight:normal; color:#666666; text-align:center;}
+.bus p{font-size:13px; font-weight:normal; color:#666666; text-align:center;}
+.car p{font-size:13px; font-weight:normal; color:#666666; text-align:center;}

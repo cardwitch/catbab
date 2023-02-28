@@ -1,0 +1,36 @@
+/*
+|--------------------------------------------------------------------------
+| UItoTop jQuery Plugin 1.2
+| http://www.mattvarone.com/web-design/uitotop-jquery-plugin/
+|--------------------------------------------------------------------------
+*/
+
+#toTop { /*제이쿼리가 자동으로 생성해주는 아이디명 - html에 사용하지 말것 */
+	display:none;
+	text-decoration:none;
+	position:fixed;
+	bottom:160px; /* y값 위치 */
+	right:20px;  /* x값 위치 */
+	overflow:hidden;
+	width:51px; /* x값 크기 - 이미지 */
+	height:61px;/* y값 크기 - 이미지 */
+	border:none;
+	text-indent:100%;
+	background:url(../images/common/ui.totop.png) no-repeat left top; /* 이미지 경로는 배경이미지 처리 */
+}
+
+#toTopHover {
+	background:url(../images/common/ui.totop.png) no-repeat left -61px; /* 마우스 올렸을 때 이미지 - 필요없을 시 지움 */
+	width:51px;
+	height:61px;
+	display:block;
+	overflow:hidden;
+	float:left;
+	opacity: 0;
+	-moz-opacity: 0;
+	filter:alpha(opacity=0);
+}
+
+#toTop:active, #toTop:focus {
+	outline:none;
+}

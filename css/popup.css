@@ -1,0 +1,18 @@
+/* popup */
+.popup{width:100%; min-width: 1000px; height: 260px; overflow: hidden; background-image:url(../images/popup/pop_up.png); background-repeat:no-repeat; background-position:center 0;background-color:#000000;}
+.textWrap{ width: 1000px; height: 230px; margin: 0 auto; overflow: hidden; }
+
+.textWrap .mobileBox{ width: 200px; height:180px; margin: 0 auto; }
+.mobileBox img{ width: 100px; height: 100px; padding-left: 50px;}
+.mobileBox p{ font-size: 13px; font-weight: bold; color: #FFFFFF; text-align:center; }
+.mobileBox p a{ font-size: 15px; font-weight: bold; color: #FFFFFF; }
+
+.textWrap .noticeBox{ width: 1000px;  margin: 0 auto;}
+.noticeBox img{float: left; width:150px; height: 50px;} 
+.noticeBox p{float: left; color: #000000; font-size: 13px; font-weight: bold;padding-top:15px;}
+.noticeBox .brownText{ color:#3a1c04; font-weight: bolder; font-size: 13px; } 
+
+.closeWrap{ width: 100%; min-width: 1000px; height: 30px;}
+.closeWrap form{ width: 1000px; height: 30px; text-align:right; line-height: 30px;  margin: 0 auto;}
+.closeWrap form input{ position:relative; top: 3px; }
+.closeWrap form label, .closeWrap form a{ color: #FFFFFF; }

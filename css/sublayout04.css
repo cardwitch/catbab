@@ -1,0 +1,39 @@
+section{ width: 1000px; margin: 0 auto; overflow: hidden;  border-right: 1px solid #596360; border-left: 1px solid #596360; }
+.sTop{ width: 1000px; height: 280px; }
+.sTop img{ width: 1000px; height: 280px; }
+
+
+.sBottom{ width: 1000px; margin: 0 auto; overflow: hidden;  }
+.conWrap{ width: 800px;  margin: 0 auto; overflow: hidden; box-sizing:border-box; padding-bottom: 150px; position:relative;}
+.conWrap .invigator{position:absolute; top: 5px; right: 0px; }
+.conWrap .invigator img {float:left; width:20px; height: 20px;}
+.conWrap .invigator li{ float: left; padding-left: 7px; padding-top:6px;}
+.conWrap .invigator li a{font-weight: bolder; font-size: 13px;}
+
+.conWrap .title{text-align: center;  padding-top:35px; margin:15px 0px;padding-bottom:20px;}
+.conWrap .content{ width:100%; height:875px; padding: 50px 15px; box-sizing:border-box;  border: 1px solid #596360; overflow: hidden; }
+.content .symbol{ width:100%; height:250px; padding:20px 50px; position:relative;}
+.symbol h2{ font-size: 23px; font-weight:bolder; color:#596360; padding-left:10px; margin-bottom:15px; }
+.symbol img{ padding-left:100px;margin-bottom:15px;  }
+.symbol p{font-size: 15px; font-weight:normal; color:#666666; padding-left:50px;}
+
+
+.content .font{ width:100%; height:250px; padding: 0 50px; position:relative;}
+.font h2{ font-size: 23px; font-weight:bolder; color:#596360; padding-left:10px; margin-bottom:15px; }
+.font img{ float:left; padding-left:100px;margin-bottom:15px; margin-right:50px; }
+.font p{font-size: 15px; font-weight:normal; color:#666666; line-height:30px; padding-top:17px;} 
+.font p img{float:left; padding-top:4px; margin:0px; padding:0px;}
+
+
+.content .color{ width:100%; height:200px; padding:0px 50px; box-sizing:border-box; position:relative;}
+.color h2{ font-size: 23px; font-weight:bolder; color:#596360; padding-left:10px; margin-bottom:17px; }
+
+.color .mColor{float:left; width:300px; height:200px; margin-right:5px;margin-left:50px;}
+.mColor h3{font-size: 17px; color:#596360; margin-bottom:27px;}
+.mColor img{ float:left; margin-right:5px;}
+.mColor p{ font-size: 15px; font-weight:normal; color:#666666; line-height:25px; }
+
+.color .subColor{float:left;width:300px; height:200px; }
+.subColor h3{font-size: 17px; color: #88DBDF; margin-bottom:27px;}
+.subColor img{ float:left; margin-right:5px;}
+.subColor p{ font-size: 15px; font-weight:normal; color:#666666; line-height:25px; }
